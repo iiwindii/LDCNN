@@ -1,6 +1,5 @@
 # MatConvNet implementation for low dimensional CNN (LDCNN)
-LDCNN is a CNN architecture consisting of common convolutional layers and the mlpconv layer used in Network in Network (NIN). LDCNN 
-is proposed in “[Learning Low Dimensional Convolutional Neural Networks for High-Resolution Remote Sensing Image Retrieval](http://www.mdpi.com/2072-4292/9/5/489/htm)”.
+LDCNN is a CNN architecture consisting of common convolutional layers and the mlpconv layer used in Network in Network (NIN). This work is for research purpose only!
 # How to use
 * Download [MatConvNet](http://www.vlfeat.org/matconvnet/) (1.0-beta23 and 24 are tested) and add it to the root directory. Compile           MatConvNet and call root directory LDCNN.
 * Download the [AID](http://www.lmars.whu.edu.cn/xia/AID-project.html) dataset and add it to the data directory, i.e. LDCNN/data/AID
