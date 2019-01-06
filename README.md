@@ -2,7 +2,7 @@
 LDCNN is a CNN architecture consisting of common convolutional layers and the mlpconv layer used in Network in Network (NIN). This work is for research purpose only!
 # How to use
 * Download [MatConvNet](http://www.vlfeat.org/matconvnet/) (1.0-beta23 and 24 are tested) and add it to the root directory. Compile           MatConvNet and call root directory LDCNN.
-* Download the [AID](http://www.lmars.whu.edu.cn/xia/AID-project.html) dataset and add it to the data directory, i.e. LDCNN/data/AID
+* Download the [AID](http://captain.whu.edu.cn/WUDA-RSImg/aid.html) dataset and add it to the data directory, i.e. LDCNN/data/AID
 * Download the pretrained [VGGM](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-m.mat) model and add it to LDCNN/model
 * Run `getImgSamples` to randomly select images from AID dataset to construct training and test set and then add them to the AID directory
 * Run `ldcnn_train`
